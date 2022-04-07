@@ -1,0 +1,10 @@
+[user]
+	email = 51815522+himyjan@users.noreply.github.com
+	name = himyjan
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[core]
+	autocrlf = input

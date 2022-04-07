@@ -1,0 +1,1903 @@
+patch:
+  style/color_scheme: google #DyingMood #ClassicChrome #TodayIsNotGood #Grassland #MaybeWeHaveHug #DarkMode #GoodEatMango #BigSurDesert #BigSurBeach #AllBlue #OrangeSugar #BigRice #YoungBlood #EastSidePurple #HappySea #Senbe #Sunset #HouseDesign #RoseofER #TriColorDumpling #Tiffany #McDonald #Lakers
+  style/display_tray_icon: false	# 顯示托盤圖示，開啟（true）；關閉（false），預設false
+  show_notifications_when: appropriate # 狀態通知，適當，也可設為全開（always）全關（never）
+
+  # 文字字體 字體可以檢視Mac的FontBook，你電腦裡有的字體正常都能支援
+  style/font_face: 'Times-Roman,YuppyTC-Regular,AppleColorEmoji'	# 設定配色方案的字型；可用"黑體" Times-Roman,HanaMinA,HanaMinB  #Times-Roman,PingFangTC-Light,AppleColorEmoji,YuppyTC-Regular
+  style/font_point: 20	# 設定配色方案的字型大小，預設14
+
+  # 輸入直排 or 橫排
+  style/candidate_list_layout: linear # linear | stacked
+  style/text_orientation": horizontal # horizontal | vertical
+  style/line_spacing: 2 #6 #1
+  style/spacing: 2 #10 #5
+  style/fullscreen: false	# 全屏輸入，即候選視窗佔滿整個螢幕，預設false
+  style/horizontal: true	# 候選窗是否橫排，true橫排，false豎排，預設false
+  style/inline_preedit: true	# TSF嵌入模式，正在輸入的編碼將嵌入到游標焦點處（僅支援TSF），預設false
+
+  # 數字標籤字體 字體可以檢視Mac的FontBook，你電腦裡有的字體正常都能支援
+  style/label_font_face: 'ComicSansMS-BoldItalic' # DFEr-W4-WIN-BF # 儷黑 Pro # ComicSansMS-BoldItalic
+  style/label_font_point: 14 #14 #12 #18 #20
+  style/label_format: "%s. "	# 候選字前面的編號，預設"%s."
+
+  # 設定style/layout:
+  style/layout/border_width: 0	# 候選視窗的外層邊框寬度，預設3
+  style/layout/candidate_spacing: 5	# 候選字行間隔，預設5
+  style/layout/hilite_padding: 2	# 候選字背景色色塊高度，預設2，若想候選字背景色塊無邊界填充候選框，僅需其高度和候選字上下邊距一致即可
+  style/layout/hilite_spacing: 3	# 序號和候選字之間的間隔，預設4
+  style/layout/margin_x: 5	# 候選字左右邊距，預設12
+  style/layout/margin_y: 5	# 候選字上下邊距，預設12
+  style/layout/min_height: 0	# 候選視窗的最小高，預設0
+  style/layout/min_width: 150	# 候選視窗的最小寬，預設160
+  style/layout/round_corner: 6	# 候選字背景色塊圓角幅度，預設4
+  style/layout/spacing: 10	# 當候選視窗是非TSF（編碼）嵌入（游標）模式時，編碼與候選遮罩色塊之間的距離，預設10
+
+  # us_keyboard_layout: true	# 鍵盤選項：應用美式鍵盤佈局
+
+  # 前方標籤位置與後面選字的距離
+  # "標籤與前方間距%c標籤與選字間距%@選字與後方間距" 像是這樣
+  # \2002 是en space的寬度 \u2004是1/3 em \u2005 是1/4 em \u2006 是1/6 em \u2007 是圖形空間的寬度 \u2008 是標點符號的寬度
+  style/candidate_format: "\u2004%c\u2002%@\u2004"
+  style/corner_radius: 9                       # 外框圓角
+  style/border_height: 5                       # 字與上下邊框的高度差
+  style/border_width: 5                        # 字與左右邊框的寬度差
+  style/base_offset: -3                        # 基線調整
+
+# 自定義配色
+# 註：預設的配色方案及代碼（指定爲 style/color_scheme ）
+#   系統默認色系 - MaybeWeHaveHug
+#   安卓／Android - android
+#   碧水／Aqua - aqua
+#   青天／Azure - azure
+#   巴西／Brasil - brasil
+#   輕盈／Brisk - brisk
+#   清風／Cool Breeze - cool_breeze
+#   暗堂／Dark Temple - dark_temple
+#   銅鑼衛門／Doraemon - doraemon
+#   DOTA 2 - dota_2
+#   西班牙／España - espagna
+#   小鶴飛揚／flypy - flypy
+#   紅蘿蔔／Gholabok - gholabok
+#   谷歌／Google - google
+#   Google+ - google_plus
+#   墨池／Ink - ink
+#   熊出沒／Kuma Shuzboz - kuma_shuzboz
+#   翡翠／Koun - koun
+#   孤寺／Lost Temple - lost_temple
+#   明月／Luna - luna
+#   澳門／Macau - macau
+#   現代藍／Metro Blue - metroblue
+#   現代戰爭／Modern Warfare - modern_warfare
+#   NBA - nba
+#   遊譯四／PS4 - ps4
+#   幽能／Psionics - psionics
+#   斯蓋普／Skype - skype
+#   藍精靈／Smurfs - smurfs
+#   致青春／So Yang - so_yang
+#   曬經石／Solarized Rock - solarized_rock
+#   星際我爭霸／StarCraft - starCraft
+#   星際我爭霸II／StarCraft II - starCraft_ii
+#   Steam - steam
+#   丁丁／Tintin - tintin
+#   Wii - Wii
+#   Windows 10 - Windows10
+#   銀色叉盒／Xbox Silver - xbox_silver
+#   Youtube - youtube
+###################################################
+#   皇帝玫瑰 - RoseofER
+#   紫金王朝 - Lakers
+#   麥當當 - McDonald
+#   Tiffany - Tiffany
+#   三色丸子 - TriColorDumpling
+#   室內設計 - HouseDesign
+#   夕陽 - Sunset
+#   仙貝 - Senbe
+#   快樂海洋 - HappySea
+#   紫氣東來 - EastSidePurple
+#   年輕十歲 - YoungBlood
+#   大米 - BigRice
+#   橘色泡泡糖 - OrangeSugar
+#   都是藍色 - AllBlue
+#   問就是海灘 - BigSurBeach
+#   問就是沙漠 - BigSurDesert
+#   芒果好吃 - GoodEatMango
+#   夜間模式 - DarkMode
+#   也許我們都應該被包圍 - MaybeWeHaveHug
+#   草地橘園 - Grassland
+#   今天有點黑 - TodayIsNotGood
+#   經典負片 - ClassicChrome
+#   天地草綠 - GreenWorld
+#   腐敗氣息 - DyingMood
+#   mojave_dark - mojave_dark
+#   Windows 10 - win10
+#   蘋果白／Mac White - mac_white
+#   蘋果白2／Mac White2 - mac_white2
+#   系統藍／System Blue - system_blue
+#   AppSo 紅 - appsored
+#   草茉莉紅 - Cx330Pink
+#   純粹的形式／Purity of Form - purity_of_form
+#   純粹的形式2／Purity of Form 2 - purity_of_form2
+#   純粹的本質／Purity of Essence - purity_of_essence
+#   冷漠／Apathy - apathy
+#   浮塵／Dust - dust
+#   漠然／mritd dark - mritd_dark
+#   宇治金時 - uji_kintoki
+#   時尚雜誌 - liveon
+#   名牌LV - Louis
+#   文文／Ayaya - ayaya
+#   lamb - mac_lamb
+#   曬經・日／Solarized Light - solarized_light
+#   曬經・月／Solarized Dark - solarized_dark
+#   金玉／Jade - Jade
+#   金玉黑／Jade Dark - Jade_Dark
+#   fcitx5_dark - fcitx5_dark
+#   fcitx5_blue - fcitx5_blue
+#   coolcao - coolcao
+#   Mac仿原生亮色/macos_light - macos_light
+#   Mac仿原生暗色/macos_dark - macos_dark
+#   簡約白／Clean White - clean_white
+#   Pron - Pron
+#   Micosoft - Micosoft
+#   默默／Momo - momo
+#   秋日橙 - red_dark
+#   沙漠夜／Mojave Dark - mojave_dark
+#   apathy - apathy
+#   興宇／Mxy - Mxy
+#   Wii2 - Wii2
+#   月白／Moonlight - Moonlight
+#   qbycs - qbycs
+#   阿斯頓／asd - asd
+
+preset_color_schemes:
+  native:
+    name: 系統配色
+
+  aqua:
+    name: 碧水／Aqua
+    author: 佛振 <chen.sst@gmail.com>
+    color_space: display_p3    # 使用p3廣色域顯色 Only available on macOS 10.12+
+    text_color: 0x000000
+    back_color: 0xeceeee
+    border_color: 0xe0e0e0
+    hilited_text_color: 0x000000
+    hilited_back_color: 0xd4d4d4
+    hilited_candidate_text_color: 0xffffff
+    hilited_candidate_back_color: 0xfa3a0a
+
+  azure:
+    name: 青天／Azure
+    author: 佛振 <chen.sst@gmail.com>
+    color_space: display_p3    # 使用p3廣色域顯色 Only available on macOS 10.12+
+    text_color: 0xffe8ca
+    candidate_text_color: 0xfff8ee
+    back_color: 0x8b4e01
+    border_color: 0x8b4e01
+    hilited_text_color: 0xfff8ee
+    hilited_back_color: 0x8b4e01
+    hilited_candidate_text_color: 0x7ffeff
+    hilited_candidate_back_color: 0xa95e01
+    comment_text_color: 0xc69664
+
+  luna:
+    name: 明月／Luna
+    author: 佛振 <chen.sst@gmail.com>
+    color_space: display_p3    # 使用p3廣色域顯色 Only available on macOS 10.12+
+    text_color: 0x000000
+    back_color: 0xffffff
+    border_color: 0xcccccc
+    hilited_text_color: 0x000000
+    hilited_back_color: 0x7fffff
+    hilited_candidate_text_color: 0xffffff
+    hilited_candidate_back_color: 0x000000
+
+  ink:
+    name: 墨池／Ink
+    author: 佛振 <chen.sst@gmail.com>
+    color_space: display_p3    # 使用p3廣色域顯色 Only available on macOS 10.12+
+    text_color: 0x000000
+    back_color: 0xffffff
+    border_color: 0x000000
+    hilited_text_color: 0x000000
+    hilited_back_color: 0xdddddd
+    hilited_candidate_text_color: 0xffffff
+    hilited_candidate_back_color: 0x000000
+
+  lost_temple:
+    name: 孤寺／Lost Temple
+    author: 佛振 <chen.sst@gmail.com>, based on ir_black
+    color_space: display_p3    # 使用p3廣色域顯色 Only available on macOS 10.12+
+    text_color: 0xe8f3f6
+    back_color: 0x444444
+    border_color: 0x444444
+    hilited_text_color: 0x82e6ca
+    hilited_back_color: 0x222222
+    hilited_candidate_text_color: 0x000000
+    hilited_candidate_back_color: 0x82e6ca
+
+  dark_temple:
+    name: 暗堂／Dark Temple
+    author: 佛振 <chen.sst@gmail.com>, based on ir_black
+    color_space: display_p3    # 使用p3廣色域顯色 Only available on macOS 10.12+
+    text_color: 0x92f6da
+    candidate_text_color: 0xd8e3e6
+    back_color: 0x222222
+    border_color: 0x222222
+    hilited_text_color: 0xffcf9a
+    hilited_back_color: 0x222222
+    hilited_candidate_text_color: 0x92f6da
+    hilited_candidate_back_color: 0x333333
+    comment_text_color: 0x606cff
+
+  starcraft:
+    name: 星際我爭霸／StarCraft
+    author: Contralisk <contralisk@gmail.com>, original artwork by Blizzard Entertainment
+    color_space: display_p3    # 使用p3廣色域顯色 Only available on macOS 10.12+
+    text_color: 0xccaa88
+    candidate_text_color: 0x30bb55
+    back_color: 0x000000
+    border_color: 0x1010a0
+    hilited_text_color: 0xfecb96
+    hilited_back_color: 0x000000
+    hilited_candidate_text_color: 0x60ffa8
+    hilited_candidate_back_color: 0x000000
+
+  google:
+    name: 谷歌／Google
+    author: skoj <skoj@qq.com>
+    color_space: display_p3    # 使用p3廣色域顯色 Only available on macOS 10.12+
+    text_color: 0x666666
+    candidate_text_color: 0x000000
+    back_color: 0xFFFFFF
+    border_color: 0xE2E2E2
+    hilited_text_color: 0x000000
+    hilited_back_color: 0xFFFFFF
+    hilited_candidate_text_color: 0xFFFFFF
+    hilited_candidate_back_color: 0xCE7539
+
+  solarized_rock:
+    name: 曬經石／Solarized Rock
+    author: "Aben <tntaben@gmail.com>, based on Ethan Schoonover's Solarized color scheme"
+    color_space: display_p3    # 使用p3廣色域顯色 Only available on macOS 10.12+
+    back_color: 0x362b00
+    border_color: 0x362b00
+    text_color: 0x009985
+    hilited_text_color: 0x98a12a
+    candidate_text_color: 0x969483
+    hilited_candidate_text_color: 0xffffff
+    hilited_candidate_back_color: 0x8236d3
+
+  tintin:
+    name: "丁丁／ Tintin"
+    author: "Patricivs <ipatrickmac@me.com>"
+    color_space: display_p3    # 使用p3廣色域顯色 Only available on macOS 10.12+
+    text_color: 0xffffff
+    back_color: 0xd99500
+    border_color: 0xd99500
+    label_color: 0xffffff
+    candidate_text_color: 0xffffff
+    comment_text_color: 0xffffff
+    hilited_text_color: 0xf7d891
+    hilited_back_color: 0xd99500
+    hilited_candidate_text_color: 0xffffff
+    hilited_comment_text_color: 0xffffff
+    hilited_candidate_back_color: 0x2164f1
+
+  dota_2:
+    name: "DOTA 2"
+    author: "Patricivs <ipatrickmac@me.com>"
+    color_space: display_p3    # 使用p3廣色域顯色 Only available on macOS 10.12+
+    text_color: 0xffffff
+    back_color: 0x120f10
+    border_color: 0x120f10
+    label_color: 0x5c758f
+    hilited_text_color: 0x1841dd
+    hilited_back_color: 0x120f10
+    candidate_text_color: 0x5c758f
+    comment_text_color: 0x5c758f
+    hilited_candidate_text_color: 0xffffff
+    hilited_comment_text_color: 0xffffff
+    hilited_candidate_back_color: 0x1841dd
+
+  brasil:
+    name: "笆悉／Brasil"
+    author: "Patricivs <ipatrickmac@me.com>"
+    color_space: display_p3    # 使用p3廣色域顯色 Only available on macOS 10.12+
+    text_color: 0xffffff
+    back_color: 0x559311
+    border_color: 0x559311
+    label_color: 0xffffff
+    hilited_text_color: 0xffffff
+    hilited_back_color: 0x7d3617
+    candidate_text_color: 0xffffff
+    comment_text_color: 0xffffff
+    hilited_candidate_text_color: 0xffffff
+    hilited_comment_text_color: 0xffffff
+    hilited_candidate_back_color: 0x16c7f7
+
+  doraemon:
+    name: "銅鑼衛門／Doraemon"
+    author: "Patricivs <ipatrickmac@me.com>"
+    color_space: display_p3    # 使用p3廣色域顯色 Only available on macOS 10.12+
+    text_color: 0x1200e5
+    back_color: 0xffffff
+    border_color: 0xe89f00
+    label_color: 0xe89f00
+    hilited_text_color: 0xffffff
+    hilited_back_color: 0x1200e5
+    candidate_text_color: 0xe89f00
+    comment_text_color: 0xe89f00
+    hilited_candidate_text_color: 0xffffff
+    hilited_comment_text_color: 0xffffff
+    hilited_candidate_back_color: 0xe89f00
+
+  espagna:
+    name: "埃斯巴尼亞／España"
+    author: "Patricivs <ipatrickmac@me.com>"
+    color_space: display_p3    # 使用p3廣色域顯色 Only available on macOS 10.12+
+    text_color: 0xffffff
+    back_color: 0x230dc3
+    border_color: 0x230dc3
+    label_color: 0xffffff
+    hilited_text_color: 0xffffff
+    hilited_back_color: 0x2cb5f7
+    candidate_text_color: 0xffffff
+    comment_text_color: 0xffffff
+    hilited_candidate_text_color: 0xffffff
+    hilited_comment_text_color: 0xffffff
+    hilited_candidate_back_color: 0x2cb5f7
+
+  gholabok:
+    name: "胡蘿菔／Gholabok"
+    author: "Patricivs <ipatrickmac@me.com>"
+    color_space: display_p3    # 使用p3廣色域顯色 Only available on macOS 10.12+
+    text_color: 0xffffff
+    back_color: 0x2939e8
+    border_color: 0x2939e8
+    label_color: 0xffffff
+    hilited_text_color: 0xffffff
+    hilited_back_color: 0x437b00
+    candidate_text_color: 0xffffff
+    comment_text_color: 0xffffff
+    hilited_candidate_text_color: 0xffffff
+    hilited_comment_text_color: 0xffffff
+    hilited_candidate_back_color: 0x3d6ded
+
+  kuma_shuzboz:
+    name: "熊出沒／Kuma Shuzboz"
+    author: "Patricivs <ipatrickmac@me.com>"
+    color_space: display_p3    # 使用p3廣色域顯色 Only available on macOS 10.12+
+    text_color: 0x000000
+    back_color: 0x2db6f8
+    border_color: 0x2db6f8
+    label_color: 0xffffff
+    hilited_text_color: 0x2db6f8
+    hilited_back_color: 0xffffff
+    candidate_text_color: 0xffffff
+    comment_text_color: 0xffffff
+    hilited_candidate_text_color: 0xffffff
+    hilited_comment_text_color: 0xffffff
+    hilited_candidate_back_color: 0x000000
+
+  kuon:
+    name: "琨／Kuon"
+    author: "Patricivs <ipatrickmac@me.com>"
+    color_space: display_p3    # 使用p3廣色域顯色 Only available on macOS 10.12+
+    text_color: 0xffffff
+    back_color: 0x70b33e
+    border_color: 0x70b33e
+    label_color: 0xffffff
+    hilited_text_color: 0x70b33e
+    hilited_back_color: 0xffffff
+    candidate_text_color: 0xffffff
+    comment_text_color: 0xffffff
+    hilited_candidate_text_color: 0x70b33e
+    hilited_comment_text_color: 0x70b33e
+    hilited_candidate_back_color: 0xffffff
+
+  macau:
+    name: "澳門／Macau"
+    author: "Patricivs <ipatrickmac@me.com>"
+    color_space: display_p3    # 使用p3廣色域顯色 Only available on macOS 10.12+
+    text_color: 0x00d9ff
+    back_color: 0x81a300
+    border_color: 0x81a300
+    label_color: 0xffffff
+    hilited_text_color: 0xffffff
+    hilited_back_color: 0x00d9ff
+    candidate_text_color: 0xffffff
+    comment_text_color: 0xffffff
+    hilited_candidate_text_color: 0x00d9ff
+    hilited_comment_text_color: 0x00d9ff
+    hilited_candidate_back_color: 0xffffff
+
+  nba:
+    name: "NBA"
+    author: "Patricivs <ipatrickmac@me.com>"
+    color_space: display_p3    # 使用p3廣色域顯色 Only available on macOS 10.12+
+    text_color: 0xffffff
+    back_color: 0xb76a00
+    border_color: 0xb76a00
+    label_color: 0xffffff
+    hilited_text_color: 0x541ed7
+    hilited_back_color: 0xffffff
+    candidate_text_color: 0xffffff
+    comment_text_color: 0xffffff
+    hilited_candidate_text_color: 0xffffff
+    hilited_comment_text_color: 0xffffff
+    hilited_candidate_back_color: 0x541ed7
+
+  ps4:
+    name: 遊驛四／ps4  #方案名。中文西文皆可。
+    author: Patricivs ipatrickmac@qq.com  #作者名及連繫方式。
+    color_space: display_p3    # 使用p3廣色域顯色 Only available on macOS 10.12+
+    text_color: 0xffffff  #已選候選項顏色。格式爲0xbbggrr
+    back_color: 0x000000  #底色
+    border_color: 0x000000  #邊框色
+    label_color: 0xffffff  #序號顏色，鼠鬚管有效
+    hilited_text_color: 0xffffff  #編碼顏色
+    hilited_back_color: 0x575759  #編碼底色
+    candidate_text_color: 0xffffff  #候選項顏色
+    comment_text_color: 0xffffff  #編碼提示顏色
+    hilited_candidate_text_color: 0xffffff  #首選項文字顏色
+    hilited_comment_text_color: 0xffffff  #高亮編碼提示顏色
+    hilited_candidate_back_color: 0xe89f00  #首選項高亮背景色
+
+  skype:
+    name: "斯蓋普／Skype"
+    author: "Patricivs <ipatrickmac@me.com>"
+    color_space: display_p3    # 使用p3廣色域顯色 Only available on macOS 10.12+
+    text_color: 0xffffff
+    back_color: 0xefad00
+    border_color: 0xefad00
+    label_color: 0xffffff
+    hilited_text_color: 0xefad00
+    hilited_back_color: 0xffffff
+    candidate_text_color: 0xffffff
+    comment_text_color: 0xffffff
+    hilited_candidate_text_color: 0xefad00
+    hilited_comment_text_color: 0xefad00
+    hilited_candidate_back_color: 0xffffff
+
+  xbox_silver:
+    name: "銀色叉盒／Xbox Silver"
+    author: "Patricivs <ipatrickmac@me.com>"
+    color_space: display_p3    # 使用p3廣色域顯色 Only available on macOS 10.12+
+    text_color: 0x1fc28d
+    back_color: 0xefeeee
+    border_color: 0xefeeee
+    label_color: 0x5bf0b5
+    hilited_text_color: 0xffffff
+    hilited_back_color: 0x5bf0b5
+    candidate_text_color: 0x1fc28d
+    comment_text_color: 0x1fc28d
+    hilited_candidate_text_color: 0xffffff
+    hilited_comment_text_color: 0xffffff
+    hilited_candidate_back_color: 0x448c28
+
+  youtube:
+    name: "YouTube"
+    author: "Patricivs <ipatrickmac@me.com>"
+    color_space: display_p3    # 使用p3廣色域顯色 Only available on macOS 10.12+
+    text_color: 0x000000
+    back_color: 0xdedede
+    border_color: 0xdedede
+    label_color: 0x000000
+    hilited_text_color: 0x230dc3
+    hilited_back_color: 0xffffff
+    candidate_text_color: 0x000000
+    comment_text_color: 0x000000
+    hilited_candidate_text_color: 0xffffff
+    hilited_comment_text_color: 0xffffff
+    hilited_candidate_back_color: 0x230dc3
+
+  so_young:
+    name: "致青春／So Young"
+    author: "五磅兔 <zcunlin@foxmail.com>"
+    color_space: display_p3    # 使用p3廣色域顯色 Only available on macOS 10.12+
+    text_color: 0x8236d3
+    back_color: 0xe3f6fd
+    border_color: 0xd5e8ee
+    label_color: 0xa1a193
+    candidate_text_color: 0x837b65
+    comment_text_color: 0xd28b26
+    hilited_text_color: 0x969483
+    hilited_back_color: 0xd5e8ee
+    hilited_candidate_text_color: 0xd5e8ee
+    hilited_comment_text_color: 0xd5e8ee
+    hilited_candidate_back_color: 0x98a12a
+
+  smurfs:
+    name: "藍精靈／Smurfs"
+    author: "skoj <skoj@qq.com>"
+    color_space: display_p3    # 使用p3廣色域顯色 Only available on macOS 10.12+
+    text_color: 0xffffff
+    back_color: 0xbf7817
+    border_color: 0xf5ede0
+    label_color: 0xbf7817
+    hilited_text_color: 0xdbbc6d
+    hilited_back_color: 0xbf7817
+    candidate_text_color: 0xf6f6f6
+    comment_text_color: 0xf6f6f6
+    hilited_candidate_text_color: 0xf6f6f6
+    hilited_comment_text_color: 0xf6f6f6
+    hilited_candidate_back_color: 0xdbbc6d
+
+  wii:
+    name: "Wii"
+    author: "Patricivs <ipatrickmac@me.com>"
+    color_space: display_p3    # 使用p3廣色域顯色 Only available on macOS 10.12+
+    text_color: 0x575759
+    back_color: 0xefefef
+    border_color: 0xefefef
+    label_color: 0xcac9c8
+    hilited_text_color: 0xffcc33
+    hilited_back_color: 0xefefef
+    candidate_text_color: 0x575759
+    comment_text_color: 0xcac9c8
+    hilited_candidate_text_color: 0xffffff
+    hilited_comment_text_color: 0xffffff
+    hilited_candidate_back_color: 0xffcc33
+
+  android:
+    name: "安卓／Android"
+    author: "Patricivs <ipatrickmac@me.com>"
+    color_space: display_p3    # 使用p3廣色域顯色 Only available on macOS 10.12+
+    text_color: 0xffffff
+    back_color: 0x99731c
+    border_color: 0x99731c
+    label_color: 0xc18835
+    hilited_text_color: 0x50c4a8
+    hilited_back_color: 0x99731c
+    candidate_text_color: 0xffffff
+    comment_text_color: 0xffffff
+    hilited_candidate_text_color: 0xffffff
+    hilited_comment_text_color: 0xffffff
+    hilited_candidate_back_color: 0x50c4a8
+
+  cool_breeze:
+    name: "清風／Cool Breeze"
+    author: "skoj <skoj@qq.com>"
+    color_space: display_p3    # 使用p3廣色域顯色 Only available on macOS 10.12+
+    text_color: 0x0000FF
+    back_color: 0xFFFBFB
+    border_color: 0xFFAAAA
+    hilited_text_color: 0x0000CE
+    hilited_back_color: 0xFFFBFB
+    candidate_text_color: 0x009100
+    hilited_candidate_text_color: 0x6F003A
+    hilited_candidate_back_color: 0xFFD6AC
+
+  oogle_plus:
+    name: "Google+"
+    author: "Patricivs <ipatrickmac@me.com>"
+    color_space: display_p3    # 使用p3廣色域顯色 Only available on macOS 10.12+
+    text_color: 0xcac9c8
+    back_color: 0xffffff
+    border_color: 0x394bdd
+    label_color: 0xcac9c8
+    hilited_text_color: 0x394bdd
+    hilited_back_color: 0xffffff
+    candidate_text_color: 0x394bdd
+    comment_text_color: 0xcac9c8
+    hilited_candidate_text_color: 0xffffff
+    hilited_comment_text_color: 0xffffff
+    hilited_candidate_back_color: 0x394bdd
+
+  modern_warfare:
+    name: "現代戰爭／Modern Warfare"
+    author: P1461
+    color_space: display_p3    # 使用p3廣色域顯色 Only available on macOS 10.12+
+    text_color: 0x14bc70
+    back_color: 0x0a1b0d
+    border_color: 0x4bad83
+    hilited_text_color: 0xfbfdfc
+    hilited_back_color: 0x030e06
+    candidate_text_color: 0xabfedc
+    comment_text_color: 0xfcfdfb
+    hilited_candidate_text_color: 0xabfedc
+    hilited_candidate_back_color: 0x676f63
+
+  brisk:
+    name: "輕盈／Brisk"
+    author: "skoj <skoj@qq.com>"
+    color_space: display_p3    # 使用p3廣色域顯色 Only available on macOS 10.12+
+    text_color: 0x2238dc
+    back_color: 0xffffff
+    border_color: 0x333333
+    hilited_text_color: 0x2238dc
+    hilited_back_color: 0xffffff
+    candidate_text_color: 0x575757
+    hilited_candidate_text_color: 0x2238dc
+    hilited_candidate_back_color: 0xffffff
+
+  starcraft_ii:
+    name: "星際爭霸Ⅱ／StarCraft Ⅱ"
+    author: "Patricivs <ipatrickmac@me.com>"
+    color_space: display_p3    # 使用p3廣色域顯色 Only available on macOS 10.12+
+    text_color: 0xffffff
+    back_color: 0x29190a
+    border_color: 0x534b46
+    label_color: 0xffffff
+    hilited_text_color: 0xffffff
+    hilited_back_color: 0x17100a
+    candidate_text_color: 0xffffff
+    comment_text_color: 0xffffff
+    hilited_candidate_text_color: 0xffffff
+    hilited_comment_text_color: 0xffffff
+    hilited_candidate_back_color: 0xefad1e
+
+  steam:
+    name: "Steam"
+    author: "Patricivs <ipatrickmac@me.com>"
+    color_space: display_p3    # 使用p3廣色域顯色 Only available on macOS 10.12+
+    text_color: 0xcd8c52
+    back_color: 0x141617
+    border_color: 0x353638
+    label_color: 0xffffff
+    hilited_text_color: 0xc9cfd1
+    hilited_back_color: 0x141617
+    candidate_text_color: 0xffffff
+    comment_text_color: 0xa7a7a9
+    hilited_candidate_text_color: 0xffffff
+    hilited_comment_text_color: 0xa7a7a9
+    hilited_candidate_back_color: 0x594231
+
+  flypy:
+    # description: |
+    #   小鹤飞扬：白底蓝字，红色高亮。
+    #   根据小鹤双拼官网图片制作
+    #   http://www.flypy.com/images/mr.png
+    name: "小鹤飞扬／flypy"
+    author: "Pal.lxk <Pal.lxk@gmail.com>"
+    color_space: display_p3    # 使用p3廣色域顯色 Only available on macOS 10.12+
+    text_color: 0x000000
+    back_color: 0xffffff
+    border_color: 0xc6c6c6
+    label_color: 0xff8000
+    hilited_text_color: 0xff8000
+    hilited_back_color: 0xffffff
+    candidate_text_color: 0xff8000
+    comment_text_color: 0xff8000
+    hilited_candidate_text_color: 0x0000b0
+    hilited_comment_text_color: 0x0000b0
+    hilited_candidate_back_color: 0xffffff
+
+  metroblue:
+    name: "现代蓝／Metro Blue"
+    author: "Prcuvu <prcuvu@gmail.com>"
+    color_space: display_p3    # 使用p3廣色域顯色 Only available on macOS 10.12+
+    text_color: 0x000000
+    back_color: 0xffffff
+    border_color: 0xd77800
+    label_color: 0x838383
+    hilited_text_color: 0x000000
+    hilited_back_color: 0xffffff
+    candidate_text_color: 0x000000
+    comment_text_color: 0x000000
+    hilited_candidate_text_color: 0xffffff
+    hilited_comment_text_color: 0xffffff
+    hilited_candidate_back_color: 0xd77800
+    hilited_label_color: 0xffffff
+
+  psionics:
+    name: 幽能／Psionics
+    author: 雨過之後、佛振
+    color_space: display_p3    # 使用p3廣色域顯色 Only available on macOS 10.12+
+    text_color: 0xc2c2c2
+    back_color: 0x444444
+    border_color: 0x444444
+    candidate_text_color: 0xeeeeee
+    hilited_text_color: 0xeeeeee
+    hilited_back_color: 0x444444
+    hilited_candidate_label_color: 0xfafafa
+    hilited_candidate_text_color: 0xfafafa
+    hilited_candidate_back_color: 0xd8bf00
+    comment_text_color: 0x808080
+    hilited_comment_text_color: 0x444444
+
+###################################################
+  RoseofER:
+    name: 皇帝玫瑰
+    author: upfloor5
+    color_space: display_p3                  # 使用p3廣色域顯色
+    border_color: '0x9CB6E5'                 # 邊框顏色
+    back_color: '0xCCCCFF'
+    text_color: '0x6BE8FF' #0x0B86B8
+    hilited_text_color: '0x00859E' #0x0B86B8
+    hilited_back_color: '0xCCCCFF' #0xC3C3E6 #0x99EFFF
+    hilited_candidate_text_color: '0x00EFFF'
+    hilited_candidate_back_color: '0x8F8FBC'
+    hilited_corner_radius: 7
+    candidate_text_color: '0x2A2AA5'
+    comment_text_color: '0x8080F0'
+    label_color: '0x4E81E6'
+
+  Lakers:
+    name: 紫金王朝
+    author: upfloor5
+    color_space: display_p3                    # 使用p3廣色域顯色
+    border_color: '0x561B2E'                   # 邊框顏色
+    back_color: '0x561B2E'
+    text_color: '0x0499EE'
+    hilited_text_color: ''
+    hilited_back_color: '0x561B2E'
+    hilited_candidate_text_color: '0x03A5F2'
+    hilited_candidate_back_color: '0xB3229A'
+    hilited_candidate_label_color: '0x05EEFF'
+    hilited_comment_text_color: ''
+    hilited_corner_radius: 7
+    candidate_text_color: '0x3CBBF2'
+    label_color: '0xFFFFFF'
+    comment_text_color: '0xEFBFD9'
+
+  McDonald:
+    name: 麥當當
+    author: upfloor5
+    color_space: display_p3                   # 使用p3廣色域顯色
+    border_color: '0x0700DB'                  # 邊框顏色
+    hilited_corner_radius: 9
+    back_color: '0x0700DB'
+    text_color: '0x0CBCFF'
+    hilited_text_color: '0xFDFAFF'
+    hilited_back_color: '0x0700DB'
+    hilited_candidate_text_color: '0x0CBCFF'
+    hilited_candidate_back_color: ''
+    hilited_candidate_label_color: '0x0CBCFF'
+    hilited_comment_text_color: '0x71F0E3'
+    candidate_text_color: '0x0993C7'
+    label_color: '0xBDBDBD'
+    comment_text_color: '0xF0F0F0'
+
+  Tiffany:
+    name: Tiffany
+    author: upfloor5
+    color_space: display_p3                    # 使用p3廣色域顯色
+    border_color: '0xFDF8D3'                   # 邊框顏色
+    hilited_corner_radius: 0
+    back_color: '0xD0D989'
+    text_color: ''
+    hilited_text_color: '0x75745D'
+    hilited_back_color: '0xD0D989' #0xFFFFCD
+    hilited_candidate_text_color: '0x466651'#0xE3FF75 0x466651
+    hilited_candidate_back_color: '0xB2CD7E'#0xADADAD 0xB2CD7E
+    hilited_candidate_label_color: '0x0A0A0A'
+    hilited_comment_text_color: '0xFFFFCD'
+    candidate_text_color: '0x757575'
+    label_color: '0xF2F2F2'
+    comment_text_color: '0xDFFFBA'
+
+  TriColorDumpling:
+    name: 三色丸子
+    author: upfloor5
+    color_space: display_p3                   # 使用p3廣色域顯色
+    border_color: '0x9EC2AF'                  # 邊框顏色
+    hilited_corner_radius: 7
+    back_color: '0xBAE8C3'
+    text_color: '0xFFFFFF'
+    hilited_text_color: '0xB982C4'
+    hilited_back_color: '0xBAE8C3'
+    hilited_candidate_text_color: '0xFFFFFF'
+    hilited_candidate_back_color: '0xB399E1'
+    hilited_candidate_label_color: '0xF7F0F4'
+    hilited_comment_text_color: ''
+    candidate_text_color: '0x79967E'
+    label_color: '0x9C8BEB'
+    comment_text_color: '0x826A9F'
+
+  HouseDesign:
+    name: 室內設計
+    author: upfloor5
+    color_space: display_p3                   # 使用p3廣色域顯色
+    border_color: '0x375789'                  # 邊框顏色
+    hilited_corner_radius: 0
+    back_color: '0x99AFC7'
+    text_color: '0x627182'
+    hilited_text_color: '0x51538F'
+    hilited_back_color: '0x99AFC7'
+    hilited_candidate_text_color: '0xE2E2FF'
+    hilited_candidate_back_color: '0x375789'
+    hilited_candidate_label_color: '0x939BAE'
+    hilited_comment_text_color: ''
+    candidate_text_color: '0x2E71BA'
+    label_color: '0x76CCF7'
+    comment_text_color: '0x51538F'
+
+  Sunset:
+    name: 夕陽
+    author: upfloor5
+    color_space: display_p3                   # 使用p3廣色域顯色
+    border_color: '0x658DC6'                  # 邊框顏色
+    back_color: '0x5AB0F3'                    # 背景顏色
+    text_color: '0x416AF4'                    # 字體顏色
+    preedit_back_color: '0x5AB0F3'            # 上方拼音或是注音位置背景的底部顏色
+    hilited_text_color: '0x416AF4'            # 上方拼音或是注音字體顏色
+    hilited_back_color: '0x5AB0F3'            # 上方拼音或是注音背景顏色
+    hilited_corner_radius: 7                  # 候選字框框圓角
+    hilited_candidate_text_color: '0x7788F4'  # 候選字體顏色
+    hilited_candidate_back_color: '0x724A5C'  # 候選背景顏色
+    hilited_candidate_label_color: '0x416AF4' # 候選數字或是英文標籤顏色
+    hilited_comment_text_color: '0xFFFFFF'    # 候選字拼音或是注音字體顏色
+    candidate_text_color: '0x6D58A3'
+    label_color: '0x3A5FDB'
+    comment_text_color: '0x724A5C'
+
+  Senbe:
+    name: 仙貝
+    author: upfloor5
+    # color_space: display_p3                # 使用p3廣色域顯色 這個主題建議不要使用
+    border_color: '0x5187BF'                 # 邊框顏色
+    hilited_corner_radius: 0
+    back_color: '0x416BBE'
+    text_color: '0x76CCF7'
+    hilited_text_color: '0x000000'
+    hilited_back_color: '0x416BBE'
+    hilited_candidate_text_color: '0x000000'
+    hilited_candidate_back_color: '0x5187BF'
+    hilited_candidate_label_color: '0x76CCF7'
+    hilited_comment_text_color: ''
+    candidate_text_color: '0x658DC6'
+    label_color: '0x375789'
+    comment_text_color: '0x375789'
+
+  HappySea:
+    name: 快樂海洋
+    author: upfloor5
+    color_space: display_p3                  # 使用p3廣色域顯色
+    border_color: '0xF1C17E'               # 邊框顏色
+    hilited_corner_radius: 7
+    back_color: '0xF1C17E'
+    text_color: '0x8564B1'
+    hilited_text_color: '0x8564B1'
+    hilited_back_color: '0xF1C17E'
+    # F1C17E前面加了00所以不會顯示顏色直接變透明，所以顯示底色的back_color
+    hilited_candidate_text_color: '0xA5A047'
+    hilited_candidate_back_color: '0xF8E9F9'
+    hilited_candidate_label_color: '0xA76E4F'
+    hilited_comment_text_color: '0xF2943D'
+    candidate_text_color: '0x658DC6'
+    label_color: '0x76CCF7'
+    comment_text_color: '0xE4BCF2'
+
+  EastSidePurple:
+    name: 紫氣東來
+    author: upfloor5
+    color_space: display_p3                  # 使用p3廣色域顯色
+    border_color: '0x8564B1'                 # 邊框顏色
+    hilited_corner_radius: 0
+    back_color: '0xE9B4D7'
+    text_color: '0x8027AF'
+    hilited_text_color: '0x8027AF'
+    hilited_back_color: '0x00E9B4D7'
+    hilited_candidate_text_color: '0xE9B4D7'
+    hilited_candidate_back_color: '0x8564B1'
+    hilited_candidate_label_color: '0x812258'
+    hilited_comment_text_color: '0xC591A3'
+    candidate_text_color: '0x994F55'
+    label_color: '0x416BBE'
+    comment_text_color: '0xC591A3'
+
+  YoungBlood:
+    name: 年輕十歲
+    author: upfloor5
+    color_space: display_p3                    # 使用p3廣色域顯色
+    border_color: '0xC1E7C1'                   # 邊框顏色
+    hilited_corner_radius: 0                   # 候選字圓角
+    back_color: '0xE5F6FC'
+    text_color: '0xA76E4F'
+    hilited_text_color: '0xA76E4F'
+    hilited_back_color: '0x00E5F6FC'
+    hilited_candidate_text_color: '0x8027AF'
+    hilited_candidate_back_color: '0xC1E7C1'
+    hilited_candidate_label_color: '0x889FC6'
+    hilited_comment_text_color: '0x9C8BEB'
+    candidate_text_color: '0x9CB6E5'
+    label_color: '0x889FC6'
+    comment_text_color: '0x9C8BEB'
+
+  BigRice:
+    name: 大米
+    author: upfloor5
+    color_space: display_p3                   # 使用p3廣色域顯色
+    border_color: '0x9CB6E5'                  # 邊框顏色
+    hilited_corner_radius: 7                  # 候選字圓角
+    back_color: '0x9CB6E5'
+    text_color: '0x812258'
+    hilited_text_color: '0x812258'
+    hilited_back_color: '0x9CB6E5'
+    hilited_candidate_text_color: '0x6CC7E4'
+    hilited_candidate_back_color: '0xD7E4EC'
+    hilited_candidate_label_color: '0x9EC2AF'
+    hilited_comment_text_color: '0xA76E4F'
+    candidate_text_color: '0x585988'
+    label_color: '0x2E71BA'
+    comment_text_color: '0x416BBE'
+
+  OrangeSugar:
+    name: 橘色泡泡糖
+    author: upfloor5
+    color_space: display_p3                   # 使用p3廣色域顯色
+    border_color: '0x474A28'                  # 邊框顏色
+    hilited_corner_radius: 0                  # 候選字圓角
+    back_color: '0x73A6FF'
+    text_color: '0x25258A'
+    hilited_text_color: '0x25258A'
+    hilited_back_color: '0x73A6FF'
+    hilited_candidate_text_color: '0xB0D5FF'
+    hilited_candidate_back_color: '0x474A28'
+    hilited_candidate_label_color: '0x579AFF'
+    hilited_comment_text_color: '0xB0D5FF'
+    candidate_text_color: '0x4C6187'
+    label_color: '0x2552A1'
+    comment_text_color: '0x78267A'
+
+  AllBlue:
+    name: 都是藍色
+    author: upfloor5
+    color_space: display_p3                   # 使用p3廣色域顯色
+    border_color: '0xAD9642'                  # 邊框顏色
+    hilited_corner_radius: 7                  # 候選字圓角
+    back_color: '0xAD9642'
+    text_color: '0x372215'
+    hilited_text_color: '0x372215'
+    hilited_back_color: '0xAD9642'
+    hilited_candidate_text_color: '0xA76E4F' #0xF3D7BC
+    hilited_candidate_back_color: '0xD1BA53'
+    hilited_candidate_label_color: '0xF3F3F3'
+    hilited_comment_text_color: '0xA76E4F'
+    candidate_text_color: '0xCECEB5'
+    label_color: '0xF1C17E'
+    comment_text_color: '0xA76E4F'
+
+  BigSurBeach:
+    name: 問就是海灘
+    author: upfloor5
+    color_space: display_p3                   # 使用p3廣色域顯色
+    border_color: '0x8FA8FF'                  # 邊框顏色
+    hilited_corner_radius: 7                  # 候選字圓角
+    back_color: '0x8097E4'
+    text_color: '0x462FC0'
+    hilited_text_color: '0x462FC0'
+    hilited_back_color: '0x8097E4'
+    hilited_candidate_text_color: '0xC0D0BD'
+    hilited_candidate_back_color: '0x536746'
+    hilited_candidate_label_color: '0x95C772'
+    hilited_comment_text_color: '0x95C772'
+    candidate_text_color: '0x76672C'
+    label_color: '0x293380'
+    comment_text_color: '0x462FC0'
+
+  BigSurDesert:
+    name: 問就是沙漠
+    author: upfloor5
+    color_space: display_p3                   # 使用p3廣色域顯色
+    border_color: '0x8B89EF'                  # 邊框顏色
+    hilited_corner_radius: 0                  # 候選字圓角
+    back_color: '0xA491C0'
+    text_color: '0x6D52CF'
+    hilited_text_color: '0x6D52CF'
+    hilited_back_color: '0xA491C0'
+    hilited_candidate_text_color: '0x3B105C'
+    hilited_candidate_back_color: '0x8B89EF'
+    hilited_candidate_label_color: '0x924564'
+    hilited_comment_text_color: '0x6D52CF'
+    candidate_text_color: '0x8B927E'
+    label_color: '0x6D52CF'
+    comment_text_color: '0x924564'
+
+  GoodEatMango:
+    name: 芒果好吃
+    author: upfloor5
+    color_space: display_p3                   # 使用p3廣色域顯色
+    border_color: '0x9CB6E5'                  # 邊框顏色
+    hilited_corner_radius: 0                  # 候選字圓角
+    back_color: '0x80E1FB'
+    text_color: '0x994F55'
+    hilited_text_color: '0x994F55'
+    hilited_back_color: '0x80E1FB'
+    hilited_candidate_text_color: '0x375789'
+    hilited_candidate_back_color: '0x9CB6E5'
+    hilited_candidate_label_color: '0xA491C0'
+    hilited_comment_text_color: '0x698AE9'
+    candidate_text_color: '0x7DB590'
+    label_color: '0x7DB590'
+    comment_text_color: '0x43794E'
+
+  DarkMode:
+    name: 夜間模式
+    author: upfloor5
+    color_space: display_p3                # 使用p3廣色域顯色
+    border_color: '0x3E2313'                  # 邊框顏色
+    hilited_corner_radius: 0                  # 候選字圓角
+    back_color: '0x372215'
+    text_color: '0xCECEB5'
+    hilited_text_color: '0xCECEB5'
+    hilited_back_color: '0x372215'
+    hilited_candidate_text_color: '0xD5CECF'
+    hilited_candidate_back_color: '0x3E2313'
+    hilited_candidate_label_color: '0x7BB8D1'
+    hilited_comment_text_color: '0xD7E4EC'
+    candidate_text_color: '0x536746'
+    label_color: '0x8B927E'
+    comment_text_color: '0x43794E'
+
+  MaybeWeHaveHug:
+    name: 也許我們都應該被包圍
+    author: upfloor5
+    color_space: display_p3                   # 使用p3廣色域顯色
+    border_color: '0x3F331E'                  # 邊框顏色
+    hilited_corner_radius: 0                  # 候選字圓角
+    back_color: '0x3F331E'
+    text_color: '0x7070EC'
+    hilited_text_color: '0x7070EC'
+    hilited_back_color: '0x3F331E'
+    hilited_candidate_text_color: '0xD5CECF'
+    hilited_candidate_back_color: '0x7C46C2'
+    hilited_candidate_label_color: '0xF8E9F9'
+    hilited_comment_text_color: '0xFDE8F6'
+    candidate_text_color: '0x8B927E'
+    label_color: '0x536746'
+    comment_text_color: '0x9C8BEB'
+
+  Grassland:
+    name: 草地橘園
+    author: upfloor5
+    color_space: display_p3                   # 使用p3廣色域顯色
+    border_color: '0x698AE9'                  # 邊框顏色
+    hilited_corner_radius: 0                  # 候選字圓角
+    back_color: '0xC6E8D0'
+    text_color: '0x95C772'
+    hilited_text_color: '0x95C772'
+    hilited_back_color: '0xC6E8D0'
+    hilited_candidate_text_color: '0x698AE9'
+    hilited_candidate_back_color: '0xA3D4F6'
+    hilited_candidate_label_color: '0x9C8BEB'
+    hilited_comment_text_color: '0x698AE9'
+    candidate_text_color: '0x8B927E'
+    label_color: '0x7DB590'
+    comment_text_color: '0x8B927E'
+
+  TodayIsNotGood:
+    name: 今天有點黑
+    author: upfloor5
+    color_space: display_p3                   # 使用p3廣色域顯色
+    # border_color: '0x698AE9'                  # 邊框顏色
+    hilited_corner_radius: 0                  # 候選字圓角
+    back_color: '0x908957'
+    text_color: '0x293380'
+    hilited_text_color: '0x889FC6'
+    hilited_back_color: '0x908957'
+    hilited_candidate_text_color: '0x698AE9'
+    hilited_candidate_back_color: '0x76672C'
+    hilited_candidate_label_color: '0x95C772'
+    hilited_comment_text_color: '0x698AE9'
+    candidate_text_color: '0x585988'
+    label_color: '0x536433'
+    comment_text_color: '0x43794E'
+
+  ClassicChrome:
+    name: 經典負片
+    author: upfloor5
+    color_space: display_p3                   # 使用p3廣色域顯色
+    border_color: '0x53451E'                  # 邊框顏色
+    hilited_corner_radius: 7                  # 候選字圓角
+    back_color: '0xC0D0BD'
+    text_color: '0x76672C'
+    hilited_text_color: '0x76672C'
+    hilited_back_color: '0xC0D0BD'
+    hilited_candidate_text_color: '0xD58865'
+    hilited_candidate_back_color: '0x75C3E3'
+    hilited_candidate_label_color: '0x698AE9'
+    hilited_comment_text_color: ''
+    candidate_text_color: '0x8B8B8B'
+    label_color: '0x8B927E'
+    comment_text_color: '0x53451E'
+
+  GreenWorld:
+    name: 天地草綠
+    author: upfloor5
+    color_space: display_p3                   # 使用p3廣色域顯色
+    border_color: '0xCECEB5'                  # 邊框顏色
+    hilited_corner_radius: 0                  # 候選字圓角
+    back_color: '0x53451E'
+    text_color: '0xD58865'
+    hilited_text_color: '0xD58865'
+    hilited_back_color: '0x53451E'
+    hilited_candidate_text_color: '0x76672C'
+    hilited_candidate_back_color: '0xCECEB5'
+    hilited_candidate_label_color: '0x3E2313'
+    hilited_comment_text_color: '0xC2BB89'
+    candidate_text_color: '0x8B8B8B'
+    label_color: '0x939BAE'
+    comment_text_color: '0x536433'
+
+  DyingMood:
+    name: 腐敗氣息
+    author: upfloor5
+    color_space: display_p3                   # 使用p3廣色域顯色
+    border_color: '0xC591A3'                  # 邊框顏色
+    hilited_corner_radius: 0                  # 候選字圓角
+    back_color: '0xA491C0'
+    text_color: '0xAD9642'
+    hilited_text_color: '0xAD9642'
+    hilited_back_color: '0xA491C0'
+    hilited_candidate_text_color: '0x812258'
+    hilited_candidate_back_color: '0xC591A3'
+    hilited_candidate_label_color: '0x320739'
+    hilited_comment_text_color: '0x812258'
+    candidate_text_color: '0x585988'
+    label_color: '0x585988'
+    comment_text_color: '0xD38851'
+
+###################################################
+  preset_color_scheme/mojave_dark:
+    name: mojave_dark
+    color_space: display_p3                 # 使用p3廣色域顯色 Only available on macOS 10.12+
+    horizontal: true # 水平/豎直顯示
+    inline_preedit: true
+    corner_radius: 5
+    border_height: 0
+    border_width: 0
+    line_spacing: 1
+    font_point: 14
+    spacing: 5  # space between preedit and candidates in non-inline mode
+
+  win10:  # 在配色方案列表裏加入標識爲 starcraft 的新方案
+    name: "Windows 10"
+    author: "Cx330"
+    color_space: display_p3                 # 使用p3廣色域顯色 Only available on macOS 10.12+
+    candidate_text_color: 0x000000  # 候選項文字顏色，當與文字顏色不同時指定
+    comment_text_color: 0x888888
+    text_color: 0x000000  # 編碼行文字顏色，24位色值，用十六進制書寫方便些，順序是藍綠紅0xBBGGRR
+    back_color: 0xffffff  # 底色
+    border_color: 0xcc8f29  # 邊框顏色，與底色相同則爲無邊框的效果
+    hilited_text_color: 0x000000  # 高亮文字，即與當前高亮候選對應的那部份輸入碼
+    hilited_back_color: 0x5d47ef  # 設定高亮文字的底色，可起到凸顯高亮部份的作用 0xffffff
+    hilited_candidate_text_color: 0xffffff  # 高亮候選項的文字顏色，要醒目！
+    hilited_candidate_back_color: 0xcc8f29  # 高亮候選項的底色，若與背景色不同就會顯出光棒
+    hilited_comment_text_color: 0xffffff
+    hilited_label_color: 0xffffff
+    label_color: 0x888888
+    label_format: "%s"
+    corner_radius: 5
+    font_point: 16
+    inline_preedit: true
+    min_width: 160
+    min_height: 0
+    border_width: 6
+    border_height: 6
+    margin_x: 12
+    margin_y: 12
+    spacing: 10
+    candidate_spacing: 24
+    hilite_spacing: 8
+    hilite_padding: 12
+    round_corner: 0
+    horizontal: true
+    candidate_format: "%c %@  "
+
+  mac_white:
+    name: 蘋果白／Mac White
+    author: Yang
+    color_space: display_p3                 # 使用p3廣色域顯色 Only available on macOS 10.12+
+    candidate_format: ' %c %@ '
+#    alpha: 1
+#    horizontal: true
+#    label_font_face: 'PingFang SC Light'
+    label_color: 0x96a8a7
+    text_color: 0x000000
+    back_color: 0xffffff
+#    border_color: 0xBDBDBD
+    hilited_text_color: 0x96a8a7 #0xE3F0FD
+    hilited_candidate_text_color: 0x000000
+    hilited_candidate_label_color: 0x96a8a7
+    hilited_candidate_back_color: 0xFFE4CE #0xFEF0E4
+    comment_text_color: 0x96a8a7
+    hilited_comment_text_color: 0x96a8a7
+
+  mac_white2:
+    name: 蘋果白2／Mac White2
+    author: Yang
+    color_space: display_p3                 # 使用p3廣色域顯色 Only available on macOS 10.12+
+    candidate_format: ' %c %@ '
+#    alpha: 1
+#    horizontal: true
+#    label_font_face: 'PingFang SC Light'
+    label_color: 0x96a8a7
+    text_color: 0x000000
+    back_color: 0xffffff
+#    border_color: 0xBDBDBD
+    hilited_text_color: 0x828282 #0x000000 #0xE3F0FD
+    hilited_candidate_text_color: 0xffffff #0x000000
+    hilited_candidate_label_color: 0xD5D6BF #0x96a8a7
+    hilited_candidate_back_color: 0xff9d2e #0xFFE4CE #0xFEF0E4
+    comment_text_color: 0x96a8a7
+    hilited_comment_text_color: 0xD5D6BF #0x96a8a7
+
+  preset_color_scheme/system_blue:
+    name: "系統藍／System Blue"
+    author: "scomper <scomper@gmail.com>"   # 作者資訊
+    color_space: display_p3                 # 使用p3廣色域顯色 Only available on macOS 10.12+ Only available on macOS 10.12+
+    back_color: 0xFFFFFF                    # 候選條背景色，24位色值，16進位制，BGR順序
+    border_color: 0xE0B693                  # 邊框色
+    candidate_text_color: 0x000000          # 預選項文字顏色
+    comment_text_color: 0x999999            # 拼音等提示文字顏色
+    hilited_back_color: 0xe16300            # 第一候選項背景背景色 0xfff0e3
+    hilited_candidate_text_color: 0xFFFFFF  # 第一候選項文字顏色 0x000000
+    hilited_candidate_label_color: 0xFFFFFF # 第一候選項編號顏色 0x999999
+    hilited_comment_text_color: 0x999999    # 註解文字高亮
+    hilited_text_color: 0x999999            # 高亮拼音 (需要開啟內嵌編碼)
+    text_color: 0x424242                    # 拼音行文字顏色
+    label_color: 0x999999                   # 預選欄編號顏色
+
+    horizontal: true                        # 水平排列
+    inline_preedit: true                    # 單行顯示，false雙行顯示
+    candidate_format: "%c\u2005%@\u2005"   # 用 1/6 em 空格 U+2005 來控制編號 %c 和候選詞 %@ 前後的空間。
+    font_point: 18                          # 候選文字大小
+    label_font_point: 13                    # 候選編號大小
+    label_font_face: "SFCompactText-Regular" # 候選詞編號字型
+    corner_radius: 5                        # 候選條圓角
+    hilited_corner_radius: 3                # 高亮圓角
+    border_height: 6                        # 視窗邊界高度，大於圓角半徑才生效
+    border_width: 6                         # 視窗邊界寬度，大於圓角半徑才生效
+    border_color_width: 0
+
+  appsored:
+    name: "AppSo 紅"
+    author: "Astrian Zheng"
+    color_space: display_p3                 # 使用p3廣色域顯色 Only available on macOS 10.12+
+    back_color: 0x2824C8
+    border_height: 6
+    border_width: 6
+    candidate_format: "%c. %@ "
+    candidate_text_color: 0xC5C3F2
+    comment_text_color: 0xFFFFFF
+    corner_radius: 6
+    font_point: 16
+    hilited_candidate_back_color: 0x2824C8
+    hilited_candidate_label_color: 0xFFFFFF
+    hilited_candidate_text_color: 0xFFFFFF
+    hilited_text_color: 0xFFFFFF
+    horizontal: true
+    label_color: 0xC5C3F2
+    label_font_point: 12
+    text_color: 0xC5C3F2
+
+  Cx330Pink:
+    name: "草茉莉紅"
+    author: "Cx330"
+    color_space: display_p3                 # 使用p3廣色域顯色 Only available on macOS 10.12+
+    back_color: 0x5d47ef
+    border_height: 6
+    border_width: 6
+    candidate_format: "%c. %@ "
+    candidate_text_color: 0xC5C3F2
+    comment_text_color: 0xFFFFFF
+    corner_radius: 6
+    font_point: 16
+    hilited_candidate_back_color: 0x5d47ef
+    hilited_candidate_label_color: 0xFFFFFF
+    hilited_candidate_text_color: 0xFFFFFF
+    hilited_text_color: 0xFFFFFF
+    horizontal: true
+    label_color: 0xC5C3F2
+    label_font_point: 12
+    label_font_face: "PingFang SC Medium" #皮膚字體
+    text_color: 0xC5C3F2
+
+  purity_of_form:
+    name: 純粹的形式／Purity of Form
+    author: 雨過之後、佛振
+    color_space: display_p3                 # 使用p3廣色域顯色 Only available on macOS 10.12+
+    text_color: 0xc2c2c2
+    back_color: 0x444444
+    candidate_text_color: 0xeeeeee
+    hilited_text_color: 0xeeeeee
+    hilited_back_color: 0x444444
+    hilited_candidate_text_color: 0x000000
+    hilited_candidate_back_color: 0xfafafa
+    comment_text_color: 0x808080
+
+  purity_of_form2:
+    name: 純粹的形式2／Purity of Form 2
+    author: 雨過之後、佛振、iDvel
+    color_space: display_p3                 # 使用p3廣色域顯色 Only available on macOS 10.12+
+    # font_face: "PingFangSC"
+    # font_point: 18
+    # label_font_point: 13
+    text_color: 0x333333 #0xc2c2c2
+    back_color: 0x545554 #0x444444
+    candidate_text_color: 0xeeeeee
+    hilited_text_color: 0xeeeeee
+    hilited_back_color: 0x444444
+    hilited_candidate_text_color: 0x000000
+    hilited_candidate_back_color: 0xE3E3E3 #0xfafafa
+    comment_text_color: 0x808080
+
+  purity_of_essence:
+    name: 純粹的本質／Purity of Essence
+    author: 佛振
+    color_space: display_p3                 # 使用p3廣色域顯色 Only available on macOS 10.12+
+    text_color: 0x2c2ccc
+    back_color: 0xfafafa
+    candidate_text_color: 0x000000
+    hilited_text_color: 0x000000
+    hilited_back_color: 0xfafafa
+    hilited_candidate_text_color: 0xeeeeee
+    hilited_candidate_back_color: 0x444444
+    comment_text_color: 0x808080
+
+  apathy:
+    name: 冷漠／Apathy
+    author: LIANG Hai
+    color_space: display_p3                 # 使用p3廣色域顯色 Only available on macOS 10.12+
+#    horizontal: true  # 水平排列
+#    inline_preedit: true #單行顯示，false雙行顯示
+    candidate_format: "%c\u2005%@\u2005"  # 編號 %c 和候選詞 %@ 前後的空間
+    corner_radius: 5  #候選條圓角
+    border_height: 0
+    border_width: 0
+    back_color: 0xFFFFFF  #候選條背景色
+#    font_face: "PingFangSC-Regular,HanaMinB"  #候選詞字型
+#    font_point: 16  #候選字詞大小
+    text_color: 0x424242  #高亮選中詞顏色
+#    label_font_face: "STHeitiSC-Light"   #候選詞編號字型
+#    label_font_point: 12   #候選編號大小
+    hilited_candidate_text_color: 0xEE6E00  #候選文字顏色
+    hilited_candidate_back_color: 0xFFF0E4  #候選文字背景色
+    comment_text_color: 0x999999 #拼音等提示文字顏色
+
+  dust:
+    name: 浮塵／Dust
+    author: Superoutman <asticosmo@gmail.com>
+    color_space: display_p3                 # 使用p3廣色域顯色 Only available on macOS 10.12+
+    horizontal: true  # 水平排列
+    inline_preedit: true #單行顯示，false雙行顯示
+    candidate_format: "%c\u2005%@\u2005"  # 用 1/6 em 空格 U+2005 來控制編號 %c 和候選詞 %@ 前後的空間。
+    corner_radius: 2  #候選條圓角
+    border_height: 3                                   # 視窗邊界高度，大於圓角半徑才生效
+    border_width: 8                                    # 視窗邊界寬度，大於圓角半徑才生效
+    back_color: 0xeeffffff  #候選條背景色
+    border_color: 0xE0B693                             # 邊框色
+    font_face: "HYQiHei-55S Book,HanaMinA Regular"     #候選詞字型
+    font_point: 14  #候選字詞大小
+    # text_color: 0x424242  #高亮選中詞顏色
+    label_font_face: "SimHei"   #候選詞編號字型
+    label_font_point: 10   #候選編號大小
+    label_color: 0xcbcbcb                              # 預選欄編號顏色
+    candidate_text_color: 0x555555                     # 預選項文字顏色
+    text_color: 0x9e9e9e                               # 拼音行文字顏色，24位色值，16進位制，BGR順序
+    comment_text_color: 0x999999                       # 拼音等提示文字顏色
+    hilited_text_color: 0x9e9e9e                       # 高亮拼音 (需要開啟內嵌編碼)
+    hilited_candidate_text_color: 0x000000             # 第一候選項文字顏色
+    hilited_candidate_back_color: 0xfff0e4             # 第一候選項背景背景色
+    hilited_candidate_label_color: 0x555555            # 第一候選項編號顏色
+    hilited_comment_text_color: 0x9e9e9e # 註解文字高亮
+
+  mritd_dark:
+      name: 漠然／mritd dark
+      author: mritd <mritd1234@gmail.com>
+      color_space: display_p3                 # 使用p3廣色域顯色 Only available on macOS 10.12+
+#      horizontal: true                          # 水平排列
+#      inline_preedit: true                      # 單行顯示，false雙行顯示
+      candidate_format: "%c\u2005%@"            # 用 1/6 em 空格 U+2005 來控制編號 %c 和候選詞 %@ 前後的空間。
+      corner_radius: 5                          # 候選條圓角
+      hilited_corner_radius: 3                  # 高亮圓角
+      border_height: 6                          # 視窗邊界高度，大於圓角半徑才生效
+      border_width: 6                           # 視窗邊界寬度，大於圓角半徑才生效
+      border_color_width: 0
+      #font_face: "PingFangSC"                   # 候選詞字型
+#      font_point: 16                            # 候選字詞大小
+#      label_font_point: 14                      # 候選編號大小
+      text_color: 0x888785 #0xdedddd                      # 拼音行文字顏色，24位色值，16進位制，BGR順序
+      back_color: 0x4b4b4b                      # 候選條背景色
+      label_color: 0x888785                     # 預選欄編號顏色
+      border_color: 0x4b4b4b                    # 邊框色
+      candidate_text_color: 0xffffff            # 預選項文字顏色
+      hilited_text_color: 0xffffff #0xdedddd              # 高亮拼音 (需要開啟內嵌編碼)
+#      hilited_back_color: 0x252320              # 高亮拼音 (需要開啟內嵌編碼)
+      hilited_candidate_text_color: 0xFFE696    # 第一候選項文字顏色
+      hilited_candidate_back_color: 0x4b4b4b    # 第一候選項背景背景色
+      hilited_candidate_label_color: 0xFFE696 #0xffffff   # 第一候選項編號顏色
+      comment_text_color: 0xdedddd
+
+  uji_kintoki:
+      name: 宇治金時
+      author: GHSRobert <robertus0617@gmail.com>
+      color_space: display_p3                 # 使用p3廣色域顯色 Only available on macOS 10.12+
+      back_color: 0xA87DC4
+      border_color: 0xF1EBF6
+      text_color: 0x573270 #0x010002
+      hilited_text_color: 0xB5EBD0 #0xD1FFE5 #0xF1EBF6 #0x7DC4AB
+      hilited_back_color: 0xA87DC4 #0x573270
+      hilited_candidate_text_color: 0x7DC4AB
+      hilited_candidate_back_color: 0x573270
+      hilited_candidate_label_color: 0xC4A47D #0x573270
+      hilited_comment_text_color: 0xC4A47D
+      candidate_text_color: 0xF1EBF6
+      comment_text_color: 0x573270 #0xC4A47D
+      label_color: 0x32705A
+
+  liveon:
+    name: 時尚雜誌
+    author: onion
+    color_space: display_p3                 # 使用p3廣色域顯色 Only available on macOS 10.12+
+    back_color: 0xF4F4F4
+    text_color: 0xB5C3CF
+    hilited_text_color: 0x373737
+    hilited_back_color: 0xF4F4F4
+    hilited_candidate_text_color: 0xF4F4F4 #0x9CD4E6
+    hilited_candidate_back_color: 0x373737
+    hilited_candidate_label_color: 0xF4F4F4 #0x9CD4E6
+    hilited_comment_text_color: 0xF4F4F4 #0xC0D0DC
+    candidate_text_color: 0x83B2C0
+    label_color: 0x83B2C0
+    comment_text_color: 0xC0D0DC
+
+  Louis:
+      name: 名牌LV
+      author: onion
+      color_space: display_p3                 # 使用p3廣色域顯色 Only available on macOS 10.12+
+      back_color: 0x313843
+      text_color: 0xAEB3BA #0xCCDEDB #0x7BDEF4 #0x6DCBF2
+      hilited_text_color: 0xDBE2EB #0x6DCBF2 #0x7BDEF4
+      hilited_back_color: 0x313843
+      hilited_candidate_text_color: 0x6DCBF2
+      hilited_candidate_back_color: 0x487492
+      hilited_candidate_label_color: 0x6DCBF2
+      hilited_comment_text_color: 0x94DFFF #0x7BDEF4
+      candidate_text_color: 0x6DCBF2
+      label_color: 0x6DCBF2
+      comment_text_color: 0x94DFFF #0x7BDEF4
+
+###################################################
+  ayaya:
+    name: "文文／Ayaya"
+    author: "Lufs <lufs@isteed.cc>"
+    color_space: display_p3                 # 使用p3廣色域顯色 Only available on macOS 10.12+
+    # horizontal: true                               # 水平排列
+    # inline_preedit: true                           # 單行顯示，false雙行顯示
+    # font_face: "PingFangSC-Regular,HanaMinB"       # 候選詞字體
+    # font_point: 16                                 # 候選字詞大小
+    # label_font_face: "STHeitiSC-Light"             # 候選詞編號字體
+    # label_font_point: 12                           # 候選編號大小
+    candidate_format: "%c\u2005"                   # 編號 %c 和候選詞 %@ 前後的空間
+    corner_radius: 5                               # 候選條圓角
+    border_height: 0
+    border_width: 0
+    back_color: 0xFFFFFF                           # 候選條背景色
+    text_color: 0x8100EB                           # 高亮選中詞顏色
+    hilited_candidate_text_color: 0x7A40EC         # 候選文字顏色
+    hilited_candidate_back_color: 0xECE4FC         # 候選文字背景色
+    comment_text_color: 0x8E8E8E                   # 拼音等提示文字顏色
+    candidate_text_color: 0x121212                 # 預選項文字顏色
+
+  mac_lamb:
+    name: "lamb"
+    author: "lamb"
+    color_space: display_p3                 # 使用p3廣色域顯色 Only available on macOS 10.12+
+    # horizontal: true                               # 設置水平還是竪直模式
+    # inline_preedit: true                           # 設置是否雙行顯示
+    # font_face: PingFangSC                          # 字體
+    # font_point: 16                                 # 字體大小
+    # label_font_point: 12                           # 普通標籤的字體大小
+    back_color: 0xffffff                           # 設置輸入條的背景色，色值是按照BGR的形式16進制填寫
+    corner_radius: 5                               # 設置輸入條的圓角效果
+    border_height: 4                               # 設置輸入條上下寬度
+    border_width: 4                                # 設置輸入條左右寬度
+    border_color: 0x9f62e8                         # 輸入條邊框顏色，似乎在橫向模式下不起作用
+    border_color_width: 0                          # 輸入條邊框寬度
+    candidate_format: "%c %@  "                    # 設置每個候選詞之間的間隔距離，%c代表備選的數字，%@代表候選字，可以通過輸入空格的形式來調整每個候選字之間的間隔距離
+    candidate_text_color: 0x333333                 # 候選字顏色
+    text_color: 0x333333                           # 普通候選字的顏色，非第一候選字
+    hilited_candidate_label_color: 0xffffff        # 第一候選字標籤顏色，也就是數字1
+    hilited_text_color: 0x888888
+    hilited_candidate_text_color: 0xffffff         # 第一候選字顏色
+    hilited_candidate_back_color: 0xD05B21         # 第一候選字高亮顏色（背景色）
+    hilited_corner_radius: 5                       # 第一候選字高亮顏色的圓角，當不設置時就是一整塊的顏色，設置了圓角之後就帶有圓角效果了
+    label_color: 0x888888                          # 普通標籤的顏色(非第一候選字)，也就是候選字數字
+
+  solarized_light:
+    name: 曬經・日／Solarized Light
+    author: 雪齋 <lyc20041@gmail.com>
+    color_space: display_p3                        # 使用p3廣色域顯色 Only available on macOS 10.12+
+    back_color: 0xf0E5F6FB                         # Lab 97, 0, 10
+    border_color: 0xf0EDFFFF                       # Lab 100, 0, 10
+    preedit_back_color: 0xf0D7E8ED                 # Lab 92, 0, 10
+    candidate_text_color: 0x3942CB                 # Lab 50, 65, 45
+    label_color: 0x2566C6                          # Lab 55, 45, 65
+    comment_text_color: 0x8144C2                   # Lab 50, 65, -5
+    text_color: 0x756E5D                           # Lab 45, -7, -7
+    hilited_back_color: 0xf0E5F6FB #0xf0C9DADF     # Lab 87, 0, 10
+    hilited_candidate_back_color: 0x403516         # Lab 20, -12, -12
+    hilited_candidate_text_color: 0x989F52         # Lab 60, -35, -5
+    hilited_candidate_label_color: 0xCC8947        # Lab 55, -10, -45
+    hilited_comment_text_color: 0x289989           # Lab 60, -20, 65
+    hilited_text_color: 0xBE706D                   # Lab 50, 15, -45
+
+  solarized_dark:
+    name: 曬經・月／Solarized Dark
+    author: 雪齋 <lyc20041@gmail.com>
+    color_space: display_p3                        # 使用p3廣色域顯色 Only available on macOS 10.12+
+    back_color: 0xf0352A0A                         # Lab 15, -12, -12
+    border_color: 0xf02A1F00                       # Lab 10, -12, -12
+    preedit_back_color: 0xf0403516                 # Lab 20, -12, -12
+    candidate_text_color: 0x989F52                 # Lab 60, -35, -5
+    label_color: 0xCC8947                          # Lab 55, -10, -45
+    comment_text_color: 0x289989                   # Lab 60, -20, 65
+    text_color: 0xA1A095                           # Lab 65, -05, -02
+    hilited_back_color: 0xf0352A0A #0xf04C4022     # Lab 25, -12, -12
+    hilited_candidate_back_color: 0xD7E8ED         # Lab 92, 0, 10
+    hilited_candidate_text_color: 0x3942CB         # Lab 50, 65, 45
+    hilited_candidate_label_color: 0x2566C6        # Lab 55, 45, 65
+    hilited_comment_text_color: 0x8144C2           # Lab 50, 65, -5
+    hilited_text_color: 0x2C8BAE                   # Lab 60, 10, 65
+
+###################################################
+  Jade:            # 在配色方案列表裏加入標識爲 Jade 的新方案
+    name: 金玉／Jade
+    author: 逯 <ililu2000@gmail.com>, original artwork by Apple
+    color_space: display_p3             # 使用p3廣色域顯色 Only available on macOS 10.12+
+    font_face: "PingFangSC"
+    font_point: 16
+    label_font_face: "PingFangSC"
+    label_font_point: 12
+    candidate_list_layout: linear       # 候選字視窗方向：linear 水平  stacked 垂直
+    text_orientation: horizontal
+    inline_preedit: true                # 單行模式
+    candidate_format: "%c %@ "          # 用空格來控制編號 %c 和候選詞 %@ 前後的空間
+    corner_radius: 5
+    hilited_corner_radius: 5
+#    border_height: 0
+#    border_width: 0
+    back_color: 0xFFFFFF
+    candidate_text_color: 0x272727
+    comment_text_color: 0xC0C0C0
+    label_color: 0x808080
+    hilited_candidate_back_color: 0xD6652F
+    hilited_candidate_text_color: 0xFFFFFF
+    hilited_comment_text_color: 0xC0C0C0
+    hilited_candidate_label_color: 0xFFFFFF
+    text_color: 0x3F000000
+    hilited_text_color: 0xD8000000
+
+  Jade_Dark:
+    name: 金玉黑／Jade Dark
+    author: 逯 <ililu2000@gmail.com>, original artwork by Apple
+    color_space: display_p3             # 使用p3廣色域顯色 Only available on macOS 10.12+
+    font_face: "PingFangSC"
+    font_point: 16
+    label_font_face: "PingFangSC"
+    label_font_point: 12
+    candidate_list_layout: linear       # 候選字視窗方向：linear 水平 | stacked 垂直
+    text_orientation: horizontal
+    inline_preedit: true                # 單行模式
+    candidate_format: "%c %@ "          # 用空格來控制編號 %c 和候選詞 %@ 前後的空間
+    corner_radius: 5
+    hilited_corner_radius: 5
+    back_color: 0x26211F
+    candidate_text_color: 0xFFFFFF
+    comment_text_color: 0x808080
+    label_color: 0x7C7C7C
+    hilited_candidate_back_color: 0xC85724
+    hilited_candidate_text_color: 0xFFFFFF
+    hilited_comment_text_color: 0x7C7C7C
+    hilited_candidate_label_color: 0xFFFFFF
+    text_color: 0x8E8E8E
+    hilited_text_color: 0xC0C0C0
+
+###################################################
+  fcitx5_dark:
+    name: fcitx5_dark
+    author: coolcao
+    color_space: display_p3             # 使用p3廣色域顯色 Only available on macOS 10.12+
+    back_color: '0xFFFFFF'
+    border_color: '0x828282'
+    text_color: '0x222222'
+    hilited_text_color: '0x222222'
+    hilited_back_color: '0xFFFFFF'
+    hilited_candidate_text_color: '0xFFFFFF'
+    hilited_candidate_back_color: '0x828282'
+    hilited_candidate_label_color: '0xFFFFFF'
+    hilited_comment_text_color: '0xE6E6E6'
+    candidate_text_color: '0x454545'
+    label_color: '0x828282'
+    comment_text_color: '0xB0B0B0'
+
+  fcitx5_blue:
+    name: "fcitx5_blue"
+    author: "coolcao"
+    color_space: display_p3             # 使用p3廣色域顯色 Only available on macOS 10.12+
+    back_color: 0xffffff
+    border_color: 0x8c6121
+    candidate_text_color: 0x707c7b
+    comment_text_color: 0x616a6b
+    hilited_back_color: 0xffffff
+    hilited_candidate_back_color: 0x8c6121
+    hilited_candidate_label_color: 0xffffff
+    hilited_candidate_text_color: 0xffffff
+    hilited_comment_text_color: 0xffffff
+    hilited_text_color: 0x707c7b
+    text_color: 0xc2c2c2
+
+  coolcao:
+    name: "coolcao"
+    author: "coolcao"
+    color_space: display_p3             # 使用p3廣色域顯色 Only available on macOS 10.12+
+    back_color: 0x444444
+    candidate_text_color: 0xeeeeee
+    comment_text_color: 0x808080
+    hilited_back_color: 0x444444
+    hilited_candidate_back_color: 0x8c3188
+    hilited_candidate_label_color: 0xfafafa
+    hilited_candidate_text_color: 0xfafafa
+    hilited_comment_text_color: 0x444444
+    hilited_text_color: 0xeeeeee
+    text_color: 0xc2c2c2
+
+    # 系統內建面板
+  macos_light:
+    name: Mac仿原生亮色/macos_light
+    author: 一方
+    color_space: display_p3    # 使用p3廣色域顯色 Only available on macOS 10.12+
+    back_color: 0xFFFFFF    # 候選條背景色，24位色值，16進位制，BGR順序
+    border_color: 0xFFFFFF    # 邊框色
+    text_color: 0x424242    # 拼音行文字顏色
+    hilited_back_color: 0xD75A00    # 第一候選項背景背景色
+    hilited_candidate_text_color: 0xFFFFFF    # 第一候選項文字顏色
+    hilited_candidate_label_color: 0xFFFFFF   # 第一候選項編號顏色
+    hilited_comment_text_color: 0x999999    # 註解文字高亮
+    hilited_text_color: 0x999999    # 高亮拼音 (需要開啟內嵌編碼)
+    candidate_text_color: 0x3c3c3c    # 預選項文字顏色
+    comment_text_color: 0x999999    # 拼音等提示文字顏色
+    horizontal: true    # 水平排列
+    inline_preedit: true    # 單行顯示，false雙行顯示
+    label_color: 0x999999   # 預選欄編號顏色
+    candidate_format: "%c\u2005%@"    # 用 1/6 em 空格 U+2005 來控制編號 %c 和候選詞 %@ 前後的空間。
+    font_face: "PingFangSC"   # 候選詞編號字型
+    font_point: 17    # 候選文字大小
+    label_font_point: 13    # 候選編號大小
+    corner_radius: 5    # 候選條圓角
+    hilited_corner_radius: 5    # 高亮圓角
+    border_height: 4     # 視窗上下高度
+    border_width: 4   # 視窗左右寬度
+    border_color_width: 0   #輸入條邊框寬度
+    #label_font_face: "SFCompactText-Regular"  # 候選詞編號字型
+
+  macos_dark:
+    name: Mac仿原生暗色/macos_dark
+    author: 一方
+    color_space: display_p3    # 使用p3廣色域顯色 Only available on macOS 10.12+
+    back_color: 0x252a2e    # 候選條背景色，24位色值，16進位制，BGR順序
+    border_color: 0x050505    # 邊框色
+    text_color: 0x424242    # 拼音行文字顏色
+    hilited_back_color: 0xD75A00    # 第一候選項背景背景色
+    hilited_candidate_text_color: 0xFFFFFF    # 第一候選項文字顏色
+    hilited_candidate_label_color: 0xFFFFFF   # 第一候選項編號顏色
+    hilited_comment_text_color: 0x999999    # 註解文字高亮
+    hilited_text_color: 0x999999    # 高亮拼音 (需要開啟內嵌編碼)
+    candidate_text_color: 0xe9e9ea    # 預選項文字顏色
+    comment_text_color: 0x999999    # 拼音等提示文字顏色
+    horizontal: true    # 水平排列
+    inline_preedit: true    # 單行顯示，false雙行顯示
+    label_color: 0x999999   # 預選欄編號顏色
+    candidate_format: "%c\u2005%@"    # 用 1/6 em 空格 U+2005 來控制編號 %c 和候選詞 %@ 前後的空間。
+    font_face: "PingFangSC"   # 候選詞編號字型
+    font_point: 17    # 候選文字大小
+    label_font_point: 13    # 候選編號大小
+    corner_radius: 5    # 候選條圓角
+    hilited_corner_radius: 5    # 高亮圓角
+    border_height: 4     # 視窗上下高度
+    border_width: 4   # 視窗左右寬度
+    border_color_width: 0   #輸入條邊框寬度
+    #label_font_face: "SFCompactText-Regular"  # 候選詞編號字型
+
+  clean_white:
+    name: 簡約白／Clean White
+    author: Chongyu Zhu <lembacon@gmail.com>, based on 搜狗「簡約白」
+    color_space: display_p3    # 使用p3廣色域顯色 Only available on macOS 10.12+
+    horizontal: true
+    candidate_format: '%c %@'
+    corner_radius: 6
+    border_height: 6
+    border_width: 6
+    font_point: 16
+    label_font_point: 12
+    label_color: 0x888888
+    text_color: 0x808080
+    hilited_text_color: 0x000000
+    candidate_text_color: 0x000000
+    comment_text_color: 0x808080
+    back_color: 0xeeeeee
+    hilited_candidate_label_color: 0xa0c98915
+    hilited_candidate_text_color: 0xc98915
+    hilited_candidate_back_color: 0xeeeeee
+
+###################################################
+  Pron:
+    name: Pron
+    author: 周庸生
+    color_space: display_p3    # 使用p3廣色域顯色 Only available on macOS 10.12+
+    back_color: 0x000000
+    border_color: 0x000000
+    text_color: 0xffffff
+    hilited_text_color: 0x000000
+    hilited_back_color: 0x009bff
+    hilited_candidate_text_color: 0x000000
+    hilited_candidate_back_color: 0x009bff
+    candidate_text_color: 0xffffff
+    comment_text_color: 0xffffff
+    label_color: 0xffffff
+    hilited_lable_color: 0x000000
+    hilited_comment_text_color: 0x000000
+
+  Micosoft:
+    name: Micosoft # 配色方案名稱
+    author: XNOM # 配色方案作者
+    color_space: display_p3    # 使用p3廣色域顯色 Only available on macOS 10.12+
+    back_color: 0xffffff # 候選框背景色
+    border_color: 0xD77800 # 候選框邊框顏色
+    text_color: 0x000000 # 已選擇字文字顏色
+    hilited_text_color: 0x000000 # 已選擇字右側拼音文字顏色
+    hilited_back_color: 0xffffff # 已選擇字右側拼音背景色
+    hilited_candidate_text_color: 0xffffff # 候選字顏色
+    hilited_candidate_back_color: 0xD77800 # 候選字背景色
+    candidate_text_color: 0x000000 # 未候選字顏色
+
+  momo:  # 配色方案列表加入名字momo的配色方案 #該配色無底色，簡潔但不太好
+    name: 默默／Momo
+    author: Momo
+    color_space: display_p3    # 使用p3廣色域顯色 Only available on macOS 10.12+
+    text_color: 0x000000             # 編碼行文字顏色，24位色值，用十六進制書寫方便些，順序是藍綠紅0xBBGGRR
+    candidate_text_color: 0x000000   # 候選項文字顏色，當與文字顏色不同時指定
+    back_color: 0xFFFFFF             # 底色
+    border_color: 0xFFFFFF           # 邊框顏色，與底色相同則爲無邊框的效果
+    hilited_text_color: 0x000000     # 高亮文字，即與當前高亮候選對應的那部份輸入碼
+    hilited_back_color: 0xFFFFFF     # 設定高亮文字的底色，可起到凸顯高亮部份的作用
+    hilited_candidate_text_color: 0xEE6E00  # 高亮候選項的文字顏色，要醒目！
+    hilited_candidate_back_color: 0xFFFFFF  # 高亮候選項的底色，若與背景色不同就會顯出光棒
+
+  red_dark:
+    name: 夏日紅
+    author: thepoy
+    color_space: display_p3    # 使用p3廣色域顯色 Only available on macOS 10.12+
+    back_color: 0x030303
+    border_color: 0x0A0A0A
+    text_color: 0xFAFAFF
+    hilited_text_color: 0xFFFFFF
+    hilited_back_color: 0x4734D6
+    hilited_candidate_text_color: 0xFFFFFF
+    hilited_candidate_back_color: 0x4734D6
+    candidate_text_color: 0xFFFFFF
+    comment_text_color: 0xFCFCFC
+
+  orange_dark:
+    name: 秋日橙
+    author: thepoy
+    color_space: display_p3    # 使用p3廣色域顯色 Only available on macOS 10.12+
+    back_color: 0x030303
+    border_color: 0x0A0A0A
+    text_color: 0xFAFAFF
+    hilited_text_color: 0xFFFFFF
+    hilited_back_color: 0x4734D6
+    hilited_candidate_text_color: 0xFFFFFF
+    hilited_candidate_back_color: 0x1D66CD
+    candidate_text_color: 0xFFFFFF
+    comment_text_color: 0xFCFCFC
+
+  mojave_dark:
+    name: 沙漠夜／Mojave Dark
+    author: xiehuc <xiehuc@gmail.com>
+    color_space: display_p3    # 使用p3廣色域顯色 Only available on macOS 10.12+
+    horizontal: true
+    inline_preedit: true
+    candidate_format: "%c %@"
+    corner_radius: 5
+    hilited_corner_radius: 0
+    border_height: 6
+    border_width: 12
+    border_color_width: 0
+    font_face: PingFangSC
+    font_point: 16
+    label_font_point: 13
+    text_color: 0xdedddd
+    back_color: 0x3c3c3c
+    label_color: 0x888785
+    border_color: 0x3c3c3c
+    candidate_text_color: 0xdedddd
+    hilited_text_color: 0xdedddd
+    hilited_back_color: 0x3c3c3c
+    hilited_candidate_text_color: 0xefefef
+    # hilited_candidate_back_color: 0xcb5d00
+    hilited_candidate_label_color: 0xefefef
+    comment_text_color: 0xdedddd
+
+  apathy2: #配色ok
+    name: apathy2
+    author: LIANG Hai
+    color_space: display_p3    # 使用p3廣色域顯色 Only available on macOS 10.12+
+    back_color: 0xFFFFFF
+    border_height: 0
+    border_width: 8
+    candidate_format: "%c %@ "
+    comment_text_color: 0x999999
+    corner_radius: 5
+    # font_face: PingFangSC
+    # font_face: "PingFangSC-Regular,HanaMinB"
+    font_point: 16
+    hilited_candidate_back_color: 0xFFF0E4
+    hilited_candidate_text_color: 0xEE6E00
+    horizontal: true
+    inline_preedit: true
+    # label_font_face: "STHeitiSC-Light"
+    label_font_point: 12
+    text_color: 0x424242
+
+  Mxy: #與apathy配色近似，都不錯
+    name: 興宇／Mxy
+    author: Mxy      # 編碼行文字顏色，24位色值，用十六進制書寫方便些，順序是藍綠紅0xBBGGRR
+    color_space: display_p3    # 使用p3廣色域顯色 Only available on macOS 10.12+
+    text_color: 0x000000      # 候選項文字顏色，當與文字顏色不同時指定
+    #candidate_text_color      # 底色
+    back_color: 0xFCFCFC      # 邊框顏色，與底色相同則爲無邊框的效果
+    border_color: 0xFCFCFC      # 高亮文字，即與當前高亮候選對應的那部份輸入碼
+    #hilited_text_color: 0xfecb96      # 設定高亮文字的底色，可起到凸顯高亮部份的作用
+    #hilited_back_color: 0x000000      # 高亮候選項的文字顏色，要醒目！
+    hilited_candidate_text_color: 0xFFFFFF      # 高亮候選項的底色，若與背景色不同就會顯出光棒
+    hilited_candidate_back_color: 0xED9564
+
+  Wii2:
+    name: Wii2
+    author: PYatoo
+    color_space: display_p3    # 使用p3廣色域顯色 Only available on macOS 10.12+
+    back_color: 0xefefef
+    border_color: 0xefefef
+    text_color: 0x575759
+    hilited_text_color: 0xED9564
+    hilited_back_color: 0xefefef
+    hilited_candidate_text_color: 0xffffff
+    hilited_candidate_back_color: 0xED9564
+    candidate_text_color: 0x575759
+    comment_text_color: 0xcac9c8
+    hilited_comment_text_color: 0xffffff
+    label_color: 0xcac9c8
+
+  Moonlight:
+    name: 月白／Moonlight
+    author: Mr.Yesterday
+    color_space: display_p3    # 使用p3廣色域顯色 Only available on macOS 10.12+
+    back_color: 0xEAE5E2
+    border_color: 0xEAE5E2
+    text_color: 0x404040
+    hilited_text_color: 0x404040
+    hilited_back_color: 0xDACFB9
+    hilited_candidate_back_color: 0xDACFB9
+    hilited_candidate_text_color: 0x000000
+    candidate_text_color: 0x404040
+    comment_text_color: 0x404040
+
+  qbycs:
+    name: qbycs
+    author: zz
+    color_space: display_p3    # 使用p3廣色域顯色 Only available on macOS 10.12+
+    back_color: 0xEDEDED #候選框 背景色
+    border_color: 0xEDEDED #候選框 邊框顏色
+    text_color: 0x000000 #已選擇字 文字顏色
+    hilited_text_color: 0xFF0008 #已選擇字右側拼音 文字顏色
+    hilited_back_color: 0xEDEDED #已選擇字右側拼音 背景色
+    hilited_candidate_text_color: 0x000000 #候選字顏色
+    hilited_candidate_back_color: 0xFDD5B4 #候選字背景色
+    candidate_text_color: 0x545454 #
+
+  asd:
+    name: 阿斯頓／asd
+    author: Jungzl
+    color_space: display_p3    # 使用p3廣色域顯色 Only available on macOS 10.12+
+    text_color: 0x666666
+    candidate_text_color: 0xEEEEEE
+    back_color: 0x333333
+    border_color: 0x555555
+    hilited_text_color: 0x000000
+    hilited_back_color: 0xFFFFFF
+    hilited_candidate_text_color: 0xFFFFFF
+    hilited_candidate_back_color: 0xCE7539

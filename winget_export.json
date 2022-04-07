@@ -1,0 +1,167 @@
+{
+	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
+	"CreationDate" : "2022-05-04T22:41:01.986-00:00",
+	"Sources" : 
+	[
+		{
+			"Packages" : 
+			[
+				{
+					"PackageIdentifier" : "suse.RancherDesktop"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VisualStudio.2022.Enterprise"
+				},
+				{
+					"PackageIdentifier" : "7zip.7zip"
+				},
+				{
+					"PackageIdentifier" : "Anki.Anki"
+				},
+				{
+					"PackageIdentifier" : "Canonical.Ubuntu"
+				},
+				{
+					"PackageIdentifier" : "DeepL.DeepL"
+				},
+				{
+					"PackageIdentifier" : "EliasFotinis.DeskPins"
+				},
+				{
+					"PackageIdentifier" : "Docker.DockerDesktop"
+				},
+				{
+					"PackageIdentifier" : "Git.Git"
+				},
+				{
+					"PackageIdentifier" : "kalilinux.kalilinux"
+				},
+				{
+					"PackageIdentifier" : "LINE.LINE"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.WindowsTerminal"
+				},
+				{
+					"PackageIdentifier" : "Notepad++.Notepad++"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.OneDrive"
+				},
+				{
+					"PackageIdentifier" : "JetBrains.Toolbox"
+				},
+				{
+					"PackageIdentifier" : "VideoLAN.VLC"
+				},
+				{
+					"PackageIdentifier" : "marha.VcXsrv"
+				},
+				{
+					"PackageIdentifier" : "Notion.Notion"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.dotnetRuntime.5-x86"
+				},
+				{
+					"PackageIdentifier" : "VMware.HorizonClient"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VC++2013Redist-x64"
+				},
+				{
+					"PackageIdentifier" : "NathanOsman.NitroShare"
+				},
+				{
+					"PackageIdentifier" : "DrewNaylor.guinget"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VC++2010Redist-x64"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VC++2015-2022Redist-x64"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VC++2012Redist-x86"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.dotnetRuntime.3-x64"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.OpenJDK.11"
+				},
+				{
+					"PackageIdentifier" : "DebaucheeOpenSourceGroup.Barrier"
+				},
+				{
+					"PackageIdentifier" : "OpenJS.NodeJS"
+				},
+				{
+					"PackageIdentifier" : "Chocolatey.ChocolateyGUI"
+				},
+				{
+					"PackageIdentifier" : "Google.Chrome"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.CLRTypesSQLServer.2019"
+				},
+				{
+					"PackageIdentifier" : "Google.Drive"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.Teams"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.dotnetRuntime.6-x64"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VisualStudioCode"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.PowerToys"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VC++2015-2022Redist-x86"
+				},
+				{
+					"PackageIdentifier" : "SomePythonThings.WingetUIStore"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.Edge"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VC++2013Redist-x86"
+				},
+				{
+					"PackageIdentifier" : "valinet.ExplorerPatcher"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.WebDeploy"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VC++2010Redist-x86"
+				},
+				{
+					"PackageIdentifier" : "EpicGames.EpicGamesLauncher"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VC++2012Redist-x64"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.dotnetRuntime.3-x86"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.dotnetRuntime.6-x86"
+				}
+			],
+			"SourceDetails" : 
+			{
+				"Argument" : "https://winget.azureedge.net/cache",
+				"Identifier" : "Microsoft.Winget.Source_8wekyb3d8bbwe",
+				"Name" : "winget",
+				"Type" : "Microsoft.PreIndexed.Package"
+			}
+		}
+	],
+	"WinGetVersion" : "1.3.692-preview"
+}
