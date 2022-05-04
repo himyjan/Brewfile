@@ -148,6 +148,7 @@ brew xorgproto
 brew xvid
 brew xz
 brew yarn
+brew youtube-dl
 brew zeromq
 brew zimg
 brew zstd
@@ -170,13 +171,18 @@ cask eul
 cask figma
 cask github
 cask hiddenbar
+cask keepingyouawake
 cask keycastr
 cask lulu
 cask maczip
 cask mark-text
 cask miniforge
 cask monitorcontrol
+cask nitroshare
+cask notion
 cask obs
+cask open-video-downloader
+cask openinterminal
 cask rectangle
 cask snipaste
 cask squirrel
@@ -193,3 +199,24 @@ tap mac-cleanup/tap
 
 tap rcmdnk/file
 brew brew-file
+
+# App Store applications
+appstore 1432731683  Adblock Plus              (2.1.17)
+appstore 1037126344  Apple Configurator        (2.15.1)
+appstore 571213070   DaVinci Resolve           (17.4.6)
+appstore 425264550   Disk Speed Test           (3.4)
+appstore 1423210932  Flow                      (2.8.2)
+appstore 682658836   GarageBand                (10.4.6)
+appstore 408981434   iMovie                    (10.3.2)
+appstore 409183694   Keynote                   (12.0)
+appstore 411213048   LadioCast                 (000013000)
+appstore 539883307   LINE                      (7.8.1)
+appstore 1575588022  MenubarX                  (1.4.7)
+appstore 1295203466  Microsoft Remote Desktop  (10.7.6)
+appstore 1289197285  MindNode                  (2022.2.2)
+appstore 409203825   Numbers                   (12.0)
+appstore 409201541   Pages                     (12.0)
+appstore 1496833156  Playgrounds               (4.0)
+appstore 1484801884  pomodorome                (1.0.15)
+appstore 415166115   Typist                    (3.4.1)
+appstore 497799835   Xcode                     (13.3.1)
