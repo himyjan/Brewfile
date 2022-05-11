@@ -171,7 +171,6 @@ cask eul
 cask figma
 cask github
 cask hiddenbar
-cask keepingyouawake
 cask keycastr
 cask lulu
 cask maczip
@@ -193,7 +192,6 @@ tap fwartner/tap
 brew mac-cleanup
 
 tap justintime50/formulas
-brew alchemist
 
 tap mac-cleanup/tap
 
@@ -209,7 +207,6 @@ appstore 1423210932  Flow                      (2.8.2)
 appstore 682658836   GarageBand                (10.4.6)
 appstore 408981434   iMovie                    (10.3.2)
 appstore 409183694   Keynote                   (12.0)
-appstore 411213048   LadioCast                 (000013000)
 appstore 539883307   LINE                      (7.8.1)
 appstore 1575588022  MenubarX                  (1.4.7)
 appstore 1295203466  Microsoft Remote Desktop  (10.7.6)
