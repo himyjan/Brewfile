@@ -1,0 +1,15 @@
+defaults write com.apple.finder _FXShowPosixPathInTitle -bool true; killall Finder
+defaults write com.apple.finder AppleShowAllFiles True; killall Finder
+sudo pmset -a sleep 0
+sudo pmset -a hibernatemode 0
+sudo pmset -a disablesleep 1
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile; source ~/.zprofile
+brew install wget cocoapods node vlc
+brew install --cask obs maczip microsoft-edge onedrive squirrel visual-studio-code openinterminal copyq accessmenubarapps anki android-file-transfer barrier
+brew upgrade
+curl -fsSL https://git.io/rime-install | bash
+curl -o cleanup https://raw.githubusercontent.com/mac-cleanup/mac-cleanup-sh/main/mac-cleanup
+chmod +x cleanup
+sudo mv cleanup /usr/local/bin/cleanup
+cleanup
