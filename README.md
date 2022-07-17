@@ -1,2 +1,2 @@
 # Brewfile
-brew upgrade;bun upgrade;yarn global upgrade
+brew upgrade;yarn global upgrade;bun upgrade;winget upgrade --all
