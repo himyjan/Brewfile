@@ -1,2 +1,2 @@
 # Brewfile
-brew upgrade;yarn global upgrade;bun upgrade;npx npm-check --global --update-all;winget upgrade --all;choco upgrade all --except="'Unity (Install)'"
+brew upgrade;yarn global upgrade;npx npm-check --global --update-all;bun upgrade;winget upgrade --all;choco upgrade all --except="'Unity (Install)'"
