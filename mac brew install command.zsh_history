@@ -1,5 +1,7 @@
 defaults write com.apple.finder _FXShowPosixPathInTitle -bool true; killall Finder
 defaults write com.apple.finder AppleShowAllFiles True; killall Finder
+defaults write com.apple.desktopservices DSDontWriteUSBStores true
+defaults write com.apple.desktopservices DSDontWriteNetworkStores true
 sudo pmset -a sleep 0
 sudo pmset -a hibernatemode 0
 sudo pmset -a disablesleep 1
